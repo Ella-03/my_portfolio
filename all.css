@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+/* =============================================
+	Base styles used by All Screens
+   =============================================
+*/
+
+
+html {
+	background-color:#D8efed;
+	font-size: 12px;
+	font-family: Quicksand;
+}
+
+
+body {
+    background: white;
+    box-shadow: rgb(65, 70, 64) 10px 0px 10px,  rgb(65, 70, 64) -10px 0px 10px;
+    margin: 0px auto;
+    max-width: 1024px;
+ }
+
+a {
+    color: black;
+}
+
+ .navbar {
+    overflow: hidden;
+    background-color: gray; 
+    width: 100%;
+    top: 40%;
+    left: 50%;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ 
+  .navbar a:hover{
+    background-color: white;
+    color: black;
+  }
+ 
+  .container {
+    position: relative;
+    text-align: center;
+    color: black;
+    height: 300px;
+  }
+
+/*Text Over Image*/
+
+ .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .middle {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+  }
+
+
+  .bottom-right {
+    position: absolute;
+    width: 20%;
+    top: 101%;
+    right: 1px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+ /* Footer Styles */
+ 
+ body > footer {
+    background-color: rgb(91, 91, 91);
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+ }
+ 
