@@ -1,0 +1,102 @@
+
+/* ============================================
+	Mobile Devices: 0 - 480 pixels
+   ============================================
+*/
+
+
+@media only screen and (max-width: 480px){
+  .row, .navbar {   
+    flex-direction: column;
+  }
+
+    /* Home photo*/
+    .home img {
+      width: 280px;
+      height: 350px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    footer {
+      order: 100;
+      line-height: 23px;
+      font-size: 15px;
+    }
+
+    /* About me photo */
+    .profile img{
+      max-width: 65%;
+      max-height: 400px;
+      margin-left: 45px;
+      
+    }
+
+    .info {
+      width: 450px;
+      font-size: 18px;
+    }
+
+ 
+}
+
+/* ===================================================
+ Tablet and Desktop Devices: 481 pixels - 1000 pixels
+  ====================================================
+*/
+
+
+@media only screen and (min-width: 481px) and (max-width: 999){
+
+  .row, .navbar {   
+    flex-direction: column;
+  }
+
+  /* Home photo*/
+ .home img {
+  width: 280px;
+  height: 350px;
+  margin-left: 45%;
+ }
+
+ footer {
+   order: 100;
+   line-height: 23px;
+   font-size: 15px;
+ }
+
+
+  /* About me photo */
+  .profile img{
+    max-width: 65%;
+    max-height: 400px;
+    margin-left: 45px;
+    
+  }
+
+}
+
+
+/* ===================================================
+ Tablet and Desktop Devices: 1000 pixels and Greater
+  ===================================================
+*/
+
+@media only screen and (min-width: 1070px) {
+
+   /* Home photo*/
+  .home img {
+    width: 500px;
+    height: 595px;
+    margin-left: 70%;
+  }
+
+  footer {
+    order: 100;
+    line-height: 23px;
+    font-size: 15px;
+  }
+
+}
+
+

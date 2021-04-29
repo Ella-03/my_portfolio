@@ -7,8 +7,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-
-<title>Ella's Portfolio</title>
+<title>Ella's Favorites</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -31,11 +30,9 @@
 </head>
 <body>
 
-
 <!-- Header -->
 <div class="header">
-  <h1 style="font-size:80px;">Ella Adam</h1>
-  <h3 style="margin-top: 1px;">Web Developer | Python Programmer</h3>
+  <h1 style="font-size:80px;">Favorite Projects</h1>
 </div>
 
 <!-- Navigation Bar -->
@@ -45,28 +42,61 @@
   <a href="fav-projects.html">Favorite Projects</a>
 </div>
 
-<div class="row">
-  <div class="sides">
-    <div class="home"><img src="senior.jpg" ></div>
+  <br>
+    <h2>Oddball Gaming</h2> 
+    <table class="previews" style="height:240px;">
+      <tr class="projectimg">
+        <th colspan="2"><img src="oddball_gaming.png"></th>
+      </tr>
+      <tr>
+        <th style="text-align: center;"><a href="https://github.com/Ella-03/Retro-Arcade">Retro Arcade Repository</a></th>
+        <th style="text-align: center;"><a href="https://www.youtube.com/playlist?list=PLcrwdgIJkngqMlQ8ZWZ5rxAW-VR5eWLu_">Game Preview</a></th>
+      </tr>
+    </table>
+   
+    <br>
 
- <h1 class="intro" id="summary"></h1>
-</div>
+    <h2>Duelburg Community Center</h2> 
+    <table class="previews" style="height:240px;">
 
+      <tr class="projectimg">
+        <th colspan="2"><img src="community center.png"></th>
+      </tr>
+      <tr>
+          <th style="text-align: center;"><a href="https://github.com/Ella-03/Dualberg-Community">Duelburg Repository</a></th>
+          <th style="text-align: center;"><a href="https://ella-03.github.io/Dualberg-Community/">Site Preview</a></th>
+      </tr>
+    </table>
 
-<footer>
+    
+<!--
+    <h2>JC's Website</h2> 
+          <div class="projectimg"> 
+            <a><img src="JCs.png"></a>
+          </div>
+
+          <table class="previews" style="height:240px;">
+            <tr>
+              <th>JC's Store Repository</th>
+              <th>Site Preview</th>
+            </tr>
+          </table>
+-->
+
+     </div>
+
+  <footer>
   Ella Adam &bull;
   ellamariaa383@gmail.com &bull;
   (636)-734-5499
 </footer>
 
 
-<!-- Back to Top 
+<!-- Back to Top -->
 <button onclick="topFunction()" id="to-top" title="Go to top"><i class="fa fa-chevron-up"></i></button>
 
 
 <script>
-  //This is for the back-to-top button
-
   //Get the button
   var mybutton = document.getElementById("to-top");
   
@@ -86,14 +116,7 @@
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
-
-
-  //This is for changing the text for a smaller screen
-  $(document).ready(function() {
-    $('#summary').text(function(i, oldText) {
-        return oldText === 'Hello my name is Ella Adam and I’m 18 years old. I am a 12 grade student currently attending St. Charles High School and Lewis and Clark Career Center. Throughout my first year of high school, I decided that I wanted a career that involved computer programming. Some of the courses I took included PLTW Computer Science Essentials, Web Development, and Python Programming. During my free time, I love drawing, riding motorcycles, playing video games, and volunteering at my Church, Faith United Methodist. My current goal for after high school is to go to St. Charles Community College. ' ? 'Student, Python, HTML, Creative, Volunteer, Motorcyclist, College' : oldText; });});
-
-  </script>-->
+  </script>
 
 </body>
 </html>

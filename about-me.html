@@ -1,41 +1,127 @@
 <!DOCTYPE html>
 <html>
-   <head>
+<head>
+<link rel="stylesheet" href="./styles.css">
+<link rel="stylesheet" href="./sizing.css">
 
-   <link rel="stylesheet" href="./styles.css">
-   <link rel="stylesheet" href="./all.css">
-   
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
-   <title>About Ella</title>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
+<title>About Ella</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  table, th, td {
+  border-collapse: collapse;
+  text-align: center;
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;
+  }
+
+</style>
 </head>
-
 <body>
-   <img src="code-bg.jpg" style="opacity: 0.5;">
-      
-      <div class="centered" style="top: 16%;">About Me</div>
 
-   <div class="navbar">
-      <a href="index.html">Home</a>
-   
-      <a href="about-me.html">About Me</a>
-   
-      <a href="projects.html">Projects</a>
 
+<!-- Header -->
+<div class="header">
+  <h1 style="font-size:80px;">About Me</h1>
+</div>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="about-me.html">About Me</a>
+  <a href="fav-projects.html">Favorite Projects</a>
+</div> 
+
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+   <!-- <h5>Photo of me:</h5> -->
+    <div class="profile"><img src="blank.jpeg" ></div>
+      <p class="intro">Hello my name is Ella Adam and I’m 18 years old. I am a 12 grade student currently attending 
+        St. Charles High School and Lewis and Clark Career Center. Throughout my first year of high school, I decided 
+        that I wanted a career that involved computer programming. Some of the courses I took included PLTW Computer Science Essentials,
+         Web Development, and Python Programming. During my free time, I love drawing, riding motorcycles, playing video games, and volunteering 
+         at my Church, Faith United Methodist. </p>
     </div>
 
-    <!--Paragraph Section (Computer)-->
+
+  <div class="main">
+    <h2>BASIC INFORMATION</h2>
 
 
+    <table class="info" style="height:240px;">
+      <tr>
+        <th style="text-align: center;"><u>Address / Contact:</u></th>
+        <th style="text-align: center;"><u>Additional Information:</u></th>
+      </tr>
+      <tr>
+        <td style="text-align: center;">730 Boschert Drive</td>
+        <td style="text-align: center;" id="points">Likes motorcycles</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">Saint Charles, MO 63301</td>
+        <td style="text-align: center;" id="points">Likes to play softball</td>
+      </tr>
+      <tr> 
+        <td style="text-align: center;">Email: <a href="mailto:ellamariaa383@gmail.com">ellamariaa383@gmail.com</a></td>
+        <td style="text-align: center;" id="points">Passionate about animals</td>
+      </tr>
+      
+      <tr> 
+        <td style="text-align: center;">Phone: <a href="tel:6367345499">(636) 734-5499</a></td>
+        <td style="text-align: center;" id="points">Favorite Game is Tomb Radier</td>
+      </tr>
+    </table>
 
-   <footer>
-      Ella Adam &bull;
-      ellamariaa383@gmail.com &bull;
-      (636)-734-5499
-   </footer>
+    <br>
+
+    
+    <h2>EDUCATION</h2>
+    <table class="info" style="height:340px;">
+
+      <tr>
+        <th style="text-align: center; font-weight: bold;"><img src="schs-logo.png"></th>
+        <th style="text-align: center; font-weight: bold;"><img src="lc-logo.png"></th>
+      </tr>
+
+      <tr>
+        <td style="text-align: center; font-weight: bold;">Saint Charles High School:</th>
+        <td style="text-align: center; font-weight: bold;">Lewis & Clark Career Center:</th>
+      </tr>
+      <tr>
+        <td style="text-align: center;">Multimedia (2021)</td>
+        <td style="text-align: center;">HTML/CSS/JavaScript (2020-2021)</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">Web Design (2018-2019)</td>
+        <td style="text-align: center;">Python (2019-2021)</td>
+      </tr>
+      <tr> 
+        <td style="text-align: center;">PLTW Comp Sci Essential (2017-2018)</td>
+        <td style="text-align: center;"></td>
+      </tr>
+      
+    </table>
+
+
+  </div>
+</div>
+
+<footer>
+  Ella Adam &bull;
+  ellamariaa383@gmail.com &bull;
+  (636)-734-5499
+</footer>
+
+<script src="https://use.fontawesome.com/0610ee3ec9.js"></script>
+
 
 </body>
 </html>
