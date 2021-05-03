@@ -9,6 +9,22 @@
   .row, .navbar {   
     flex-direction: column;
   }
+  
+  .intro1 {
+      display: none;
+  }
+  
+  /* About me photo */
+  .profile img{
+    max-width: 60%;
+    max-height: 350px;
+    margin-left: 17%;
+    
+  }
+
+  .intro2 {
+    text-align: center;
+  }
 
     /* Home photo*/
     .home img {
@@ -18,62 +34,51 @@
       margin-right: auto;
     }
 
-    footer {
-      order: 100;
-      line-height: 23px;
+    .basic {
+      margin-left: 80px;
+    }
+
+    .school {
+      margin-left: 150px;
+    }
+
+    .main {
+      flex: 70%;
+      background-color: #DDDDE3;
+      padding: 15px; 
+    }
+
+    .info1 {
+      width: 450px;
       font-size: 15px;
     }
 
-    /* About me photo */
-    .profile img{
-      max-width: 65%;
-      max-height: 400px;
-      margin-left: 45px;
-      
+    .high img{
+      width: 120px;
+    }
+  
+    .LC img{
+      width: 250px;
+      height: 150px;
     }
 
-    .info {
+    .info2 {
       width: 450px;
-      font-size: 18px;
+      font-size: 15px;
     }
 
- 
-}
 
-/* ===================================================
- Tablet and Desktop Devices: 481 pixels - 1000 pixels
-  ====================================================
-*/
-
-
-@media only screen and (min-width: 481px) and (max-width: 999){
-
-  .row, .navbar {   
-    flex-direction: column;
-  }
-
-  /* Home photo*/
- .home img {
-  width: 280px;
-  height: 350px;
-  margin-left: 45%;
- }
-
- footer {
-   order: 100;
-   line-height: 23px;
-   font-size: 15px;
- }
-
-
-  /* About me photo */
-  .profile img{
-    max-width: 65%;
-    max-height: 400px;
-    margin-left: 45px;
+    .sections {
     
-  }
+      font-size: 30px;
+    }
 
+    footer {
+    order: 100;
+    line-height: 23px;
+    font-size: 15px;
+    }
+  
 }
 
 
@@ -82,13 +87,28 @@
   ===================================================
 */
 
-@media only screen and (min-width: 1070px) {
+@media only screen and (min-width: 481px) {
+
+ 
 
    /* Home photo*/
   .home img {
     width: 500px;
     height: 595px;
     margin-left: 70%;
+  }
+
+  .high img{
+    width: 150px;
+  }
+
+  .LC img{
+    width: 250px;
+    height: 190px;
+  }
+  
+  .intro2 {
+    display: none;
   }
 
   footer {

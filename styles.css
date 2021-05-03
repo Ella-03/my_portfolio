@@ -27,6 +27,7 @@
     display: flex;
     background-color: #8F91A2;
     width: 100%;
+    font-size: 20px;
   }
   
   .navbar a {
@@ -37,7 +38,7 @@
   }
   
   .navbar a:hover {
-    background-color: #DCEDFF;
+    background-color: #DDDDE3;
     color: black;
   }
 
@@ -79,9 +80,6 @@
     margin-right: auto;
   }
 
- 
-
-  
   /* Home photo*/
   .home img {
     border-radius: 50%;
@@ -108,44 +106,81 @@
     
   }
 
-  .intro {
+  .intro1 {
     font-size: 20px;
     color: black;
   }
 
+  .high img{
+    width: 100px;
+  }
 
+  .LC img{
+    width: 200px;
+    height: 140px;
+  }
 
-  /* Text box color */
-  .info {
+  .intro2 {
+    font-size: 20px;
+    color: black;
+  }
+
+  /* Text box color CONTACT*/
+  .info1 {
     background-color: #C2D2EA;
     padding: 4px;
     font-size: 18px;
   }
 
 
-  .info a:link {
+  .info1 a:link {
     text-decoration: none;
   }
   
-  .info a:hover {
+  .info1 a:hover {
     text-decoration: underline;
   }
 
-  .info a:link {
+  .info1 a:link {
     color: black;
   }
 
-  .logos {
-    width: 100%;
-    padding: 20px;
+
+  /* Text box color EDUCATION */
+  .info2 {
+    background-color: #C2D2EA;
+    padding: 4px;
+    font-size: 18px;
   }
 
-  .previews {
-    width: 100%;
-    padding: 20px;
+
+  .info2 a:link {
+    text-decoration: none;
+  }
+  
+  .info2 a:hover {
+    text-decoration: underline;
   }
 
+  .info2 a:link {
+    color: black;
+  }
 
+  .sections {
+    padding: 4px 20px;
+    font-size: 35px;
+  }
+
+  .usections {
+    color: black;
+    padding: 4px 40px;
+    font-size: 20px;
+  }
+
+  .usections a{
+    color: black;
+    text-decoration: underline;
+  }
 
   /* About me links for social */
   
@@ -164,6 +199,7 @@
     height: 20px;
     line-height: 25px;
     width: 100%;
+    text-decoration: none;
  }
 
 /* Button Back-To-Top*/
