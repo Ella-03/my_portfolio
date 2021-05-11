@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Get in Touch</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="styles.css" media="all">
+<link rel="stylesheet" href="sizing.css" media="screen">
+<link rel="stylesheet" href="intouch.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<!-- Navbar (sit on top) <div class="centered1b">Web Developer | Python Programmer</div>-->
+<div class="big" id="menu">
+    <ul>
+        <li style="float: left;"><a href="index.html">HOME</a></li>
+        <li style="float: left;"><a href="about.html"><i class="fa fa-user"></i> ABOUT ME</a></li>
+        <li style="float: left;"><a href="port.html"><i class="fa fa-th"></i> PORTFOLIO</a></li>  
+        <li style="float: left;"><a href="#reviews"><i class="fa fa-pencil-square-o"></i> REVIEWS</a></li>
+        <li style="float: right;"><a href="contact.html"><i class="fa fa-envelope"></i> CONTACT</a></li>
+    </ul>
+    <br>
+    <br>
+</div>
+
+<div class="small">
+    <div class="dropdown">
+        <button class="dropbtn"><i class="fa fa-bars fa-2x "></i></button>
+        <div class="dropdown-content">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT ME</a>
+        <a href="port.html">PORTFOLIO</a>
+        <a href="#">REVIEWS</a>
+        <a href="contact.html">CONTACT</a>
+        </div>
+        </div>
+</div>
+
+
+<form action="https://formspree.io/f/xrgrerar" method="POST">
+    
+    <label for="fullname">Full Name</label>
+    <input class="inputfield" type="text" name="name" class="name" required>
+
+    <label for="email">Email Address</label>
+    <input class="inputfield" type="email" name="email" required>
+  
+    <label for="phonenumber">Phone Number</label>
+    <input class="inputfield" type="text" name="phonenumber" placeholder="*Optional" id="checkthis">
+
+    <label for="respond">How Can I Reach You?</label> <br>
+
+    <div class="bg">
+        <input type="radio" id="email" name="selector" value="email" required>
+        <label class="smallLabel" for="male" style="color: white;">Email</label><br>
+
+        <input type="radio" id="phonenumber" name="selector" value="phonenumber">
+        <label class="smallLabel" for="female" style="color: white;">Phone Number</label><br>
+        
+        <input  type="radio" id="both" name="selector" value="both">
+        <label class="smallLabel" for="other" style="color: white;">Both</label><br><br>
+    </div>
+
+    <label for="message">Message</label>
+    <input class="inputfield" type="text" name="message" required>                                                         
+                                                        
+                                                          
+    <input class="button" type="submit" value="Send">
+
+  </form> 
+
+
+
+
+
+</body>
+</html>

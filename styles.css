@@ -1,226 +1,155 @@
-*{
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial;
-    margin: 0; 
-    font-family: Chilanka;
-    font-size: 20px;
-    width:auto;
-    background-color: #DCEDFF;
-  }
-  
-  .header {
-    padding: 4px;
-    text-align: center;
-    background: #94B0DA;
-    background-image: url("code-bg.jpg");
-    color: white;
-    font-size: 20px;
-   
-  }
-  
-
-  /* NAVBAR */
-  .navbar {
-    display: flex;
-    background-color: #8F91A2;
-    width: 100%;
-    font-size: 20px;
-  }
-  
-  .navbar a {
-    color: white;
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: center;
-  }
-  
-  .navbar a:hover {
-    background-color: #DDDDE3;
+body{
+    height: 100%;
     color: black;
+    line-height: 1.8;
+    font-family: Century;
   }
 
-  
-  /* Column container */
-  .row {  
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  /* Create two unequal columns that sits next to each other */
-  /* Sidebar/left column */
-  .side {
-    flex: 30%;
-    background-color: #f1f1f1;
-    padding: 20px;
-  }
-
-  .sides {
-    flex: 30%;
-    padding: 20px;
-  }
-
-
-  .main {
-    flex: 70%;
-    background-color: white;
-    padding: 20px; 
-  }
-  
-  /* This is for the favorite projects page */
-  .projectimg img{
-    border-radius: 25px;
-    background: #889496;
-    padding: 20px;
-
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* Home photo*/
-  .home img {
-    border-radius: 50%;
-    background: #889496;
-    padding: 20px; 
-    width: 280px;
-    height: 350px;
-    display: flex;
-  }
-  
-
- /* About me photo */
-  .profile img{
-    width: 65%;
-    height: 400px;
-    border-radius: 20px;
-    margin-left: 45px;
-    background-color: #889496;
-    padding: 20px;
-
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
-
-  .intro1 {
-    font-size: 20px;
+/*--------------------- Computer Nav Bar--------------------*/
+a {
     color: black;
-  }
-
-  .high img{
-    width: 100px;
-  }
-
-  .LC img{
-    width: 200px;
-    height: 140px;
-  }
-
-  .intro2 {
-    font-size: 20px;
-    color: black;
-  }
-
-  /* Text box color CONTACT*/
-  .info1 {
-    background-color: #C2D2EA;
-    padding: 4px;
-    font-size: 18px;
-  }
-
-
-  .info1 a:link {
-    text-decoration: none;
-  }
-  
-  .info1 a:hover {
-    text-decoration: underline;
-  }
-
-  .info1 a:link {
-    color: black;
-  }
-
-
-  /* Text box color EDUCATION */
-  .info2 {
-    background-color: #C2D2EA;
-    padding: 4px;
-    font-size: 18px;
-  }
-
-
-  .info2 a:link {
-    text-decoration: none;
-  }
-  
-  .info2 a:hover {
-    text-decoration: underline;
-  }
-
-  .info2 a:link {
-    color: black;
-  }
-
-  .sections {
-    padding: 4px 20px;
-    font-size: 35px;
-  }
-
-  .usections {
-    color: black;
-    padding: 4px 40px;
-    font-size: 20px;
-  }
-
-  .usections a{
-    color: black;
-    text-decoration: underline;
-  }
-
-  /* About me links for social */
-  
-  .links a {
-    text-align: center;
-    padding: 14px 20px;
-    text-align: center;
-    color: black;
-  }
-
-  footer {
-    background-color: rgb(91, 91, 91);
-    color: white;
-    font-size: 15px;
-    text-align: center;
-    height: 20px;
-    line-height: 25px;
-    width: 100%;
-    text-decoration: none;
- }
-
-/* Button Back-To-Top*/
-#to-top{
-  text-align: center;
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 11;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background: #889496;
-  color: #ffffff;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
-  transition: background 0.5s;
 }
 
-#to-top:hover {
-  background-color: #555;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+  }
+  
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover:not(.active) {
+    background-color: rgba(209, 209, 209, 0.568);
+    color: rgb(97, 96, 96);
+  }
+
+/*End of Computer Nav Bar -------------------*/
+
+
+
+/*--------------------- Mobile Nav Bar--------------------*/
+.dropbtn {
+  background-image: url('dots.png');
+  background-repeat: cover;
+  background-color: #add8e6;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  top: 10%;
+  right: 280px;
+  background-color:none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*End of mobile nav--------------------*/
+
+
+
+/*---------------------Index page text layout--------------------*/
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
+.centeredb {
+  text-align: center;
+  color: black;
+  font-size: 70px;
+}
+
+.centered1b {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+  }
+
+.centered1s {
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  }
+
+.centered2s {
+  color: black;
+  text-align: center;
+  font-size: 25px;
+}
+
+/*End text layout ---------------------*/
+
+
+/*--------------------- Skills For Comp--------------------*/
+.holder {
+  padding: 0px 100px 0px 400px;
+}
+
+.skills {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.web {width: 70%; background-color: #212121;}
+.py {width: 60%; background-color: #212121;}
+.adobe {width: 55%; background-color: #212121;}
+.js {width: 20%; background-color: #212121;}
+/* End Skills For Comp--------------------*/
+
+
+
+/*--------------------- Skills For Mobile--------------------*/
+.block {
+  width: 70%;
+  border: none;
+  background-color: #212121;
+  color: white;
+  padding: 20px 50px;
+  font-size: 16px;
+  text-align: center;
+}
+/* End Skills For Mobile--------------------*/
+
+/*--------------------- About Me Pic layout--------------------*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

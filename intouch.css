@@ -1,0 +1,78 @@
+/* Resets */
+
+* { 
+    box-sizing: border-box; 
+  }
+  
+  /* Centering items, font + background */
+  body {
+    align-items: center;
+  }
+  
+  /* Label */
+  label {
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+.smallLabel {
+    font-size: 20px;
+}
+  
+  
+  /* Input */
+  .inputfield {
+    font-size: 1.1em;
+    font-weight: bold;
+    display: block;
+    height: 44px;
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    transition: all 1s;
+    border: 3px solid rgba(102,51,153,0);
+    background: #212121;
+    color: white; 
+    margin: 1em 0 2em 0;
+    padding: 2em;
+  }
+  
+  
+  input[type="text"]:focus, input[type="email"]:focus {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  /* Button */
+  .button {
+    font-size: 20px;
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    /* To get the hover animation to work */
+    transition: transform .5s;
+  }
+  
+  .button:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    background-color: #00ffa294;
+    color: #212121;
+  }
+
+
+  .bg {
+    background-color: #212121;
+    border-radius: 10px;
+    border: 3px solid rgba(102,51,153,0);
+  }

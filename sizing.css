@@ -1,122 +1,163 @@
-
-/* ============================================
-	Mobile Devices: 0 - 480 pixels
-   ============================================
-*/
-
-
-@media only screen and (max-width: 480px){
-  .row, .navbar {   
-    flex-direction: column;
-  }
-  
-  .intro1 {
+/*PHONE*/
+@media only screen and (max-device-width: 641px) {
+    .big {
       display: none;
-  }
-  
-  /* About me photo */
-  .profile img{
-    max-width: 60%;
-    max-height: 350px;
-    margin-left: 17%;
-    
-  }
-
-  .intro2 {
-    text-align: center;
-  }
-
-    /* Home photo*/
-    .home img {
-      width: 280px;
-      height: 350px;
-      margin-left: auto;
-      margin-right: auto;
     }
 
-    .basic {
-      margin-left: 80px;
+    .b1L {
+      display: none;
+    }
+    body {
+      background-image: url('dots.png');
+      background-repeat: cover;
+      background-color: #add8e6;
+      }
+
+    .introb {
+      display: none;
     }
 
-    .school {
-      margin-left: 150px;
-    }
-
-    .main {
-      flex: 70%;
-      background-color: #DDDDE3;
-      padding: 15px; 
-    }
-
-    .info1 {
-      width: 450px;
+    .intros {
+      background-color: #212121cb;
+      color:white;
       font-size: 15px;
+      display: block;
     }
 
-    .high img{
-      width: 120px;
-    }
-  
-    .LC img{
-      width: 250px;
-      height: 150px;
+    .portphone {
+      display: block;
     }
 
-    .info2 {
-      width: 450px;
-      font-size: 15px;
+    .portcomp {
+      display: none;
     }
 
-
-    .sections {
+    .button {
+      width: 30%;
+    }
     
-      font-size: 30px;
-    }
 
-    footer {
-    order: 100;
-    line-height: 23px;
-    font-size: 15px;
-    }
-  
 }
 
 
-/* ===================================================
- Tablet and Desktop Devices: 1000 pixels and Greater
-  ===================================================
-*/
+/*TABLET*/
+  @media only screen and (min-device-width: 642px) {
+    .small {
+      display: none;
+    }
 
-@media only screen and (min-width: 481px) {
+    body {
+      background-image: url('dots.png');
+      background-repeat: cover;
+      background-color: #add8e6;
+      }
 
- 
+    .introb {
+      display: none;
+    }
 
-   /* Home photo*/
-  .home img {
-    width: 500px;
-    height: 595px;
-    margin-left: 70%;
-  }
+    .intros {
+      background-color: #212121cb;
+      color:white;
+      font-size: 15px;
+      display: block;
+    }
 
-  .high img{
-    width: 150px;
-  }
+    .portphone {
+      display: block;
+    }
 
-  .LC img{
-    width: 250px;
-    height: 190px;
-  }
-  
-  .intro2 {
+    .portcomp {
+      display: none;
+    }
+
+    .button {
+      width: 30%;
+    }
+    
+
+
+}
+
+/*COMPUTER*/
+@media only screen and (min-device-width: 800px) {
+  .small {
     display: none;
   }
 
-  footer {
-    order: 100;
-    line-height: 23px;
-    font-size: 15px;
-  }
+ 
+  body {
+    background-image: url('dots.png');
+    background-repeat: cover;
+    }
+
+    .intros {
+      display: none;
+    }
+
+    .introb {
+      background-color: #212121cb;
+      color:white;
+      font-size: 18px;
+      display: block;
+    }
+
+
+    .portphone {
+      display: block;
+    }
+
+    .portcomp {
+      display: none;
+    }
+
+    .button {
+      width: 10%;
+    }
+    
 
 }
 
+
+/*COMPUTER*/
+@media only screen and (min-device-width: 1300px) {
+  .small {
+    display: none;
+  }
+
+  body {
+    background-image: url('dots.png');
+    background-repeat: cover;
+    }
+
+  .intros {
+    display: none;
+  }
+
+  .introb {
+    background-color: #212121cb;
+    color:white;
+    font-size: 18px;
+    display: block;
+  }
+
+  .portcomp {
+    display: block;
+  }
+
+  .portphone {
+    display: none;
+  }
+
+  .button {
+    width: 10%;
+  }
+  
+  img {
+    width: 450px;
+    height: 500px;
+  }
+
+
+}
 
