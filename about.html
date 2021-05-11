@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="styles.css" media="all">
 <link rel="stylesheet" href="sizing.css" media="screen">
 
+<script src="script.js"></script> 
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <body>
 
@@ -16,22 +18,22 @@
         <li style="float: left;"><a href="index.html">HOME</a></li>
         <li style="float: left;"><a href="about.html"><i class="fa fa-user"></i> ABOUT ME</a></li>
         <li style="float: left;"><a href="port.html"><i class="fa fa-th"></i> PORTFOLIO</a></li>  
-        <li style="float: left;"><a href="#reviews"><i class="fa fa-pencil-square-o"></i> REVIEWS</a></li>
+        <li style="float: left;"><a href="social.html"><i class="fa fa-pencil-square-o"></i> SOCIAL MEDIA</a></li>
         <li style="float: right;"><a href="contact.html"><i class="fa fa-envelope"></i> CONTACT</a></li>
     </ul>
 </div>
 
 <div class="small">
-    <div class="dropdown">
-        <button class="dropbtn"><i class="fa fa-bars fa-2x "></i></button>
-        <div class="dropdown-content">
-        <a href="index.html">HOME</a>
-        <a href="about.html">ABOUT ME</a>
-        <a href="port.html">PORTFOLIO</a>
-        <a href="#">REVIEWS</a>
-        <a href="contact.html">CONTACT</a>
-        </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="index.html">HOME</a>
+          <a href="about.html">ABOUT ME</a>
+          <a href="port.html">PORTFOLIO</a>
+          <a href="social.html">SOCIAL MEDIA</a>
+          <a href="contact.html">CONTACT</a>
       </div>
+
+      <span style="font-size:20px;cursor:pointer" onclick="openNav()"><i class="fa fa-bars fa-2x "></i></span>
 </div>
 
 
