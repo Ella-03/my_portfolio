@@ -89,6 +89,7 @@
   body {
     background-image: url('dots.png');
     background-repeat: cover;
+    background-color: #add8e6;
     }
 
     .intros {
@@ -128,6 +129,7 @@
   body {
     background-image: url('dots.png');
     background-repeat: cover;
+    background-color: #add8e6;
     }
 
   .intros {

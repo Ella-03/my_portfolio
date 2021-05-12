@@ -37,7 +37,6 @@ li a:hover:not(.active) {
 /*End of Computer Nav Bar -------------------*/
 
 
-
 /*--------------------- Mobile Nav Bar--------------------*/
 .sidenav {
   height: 100%;
@@ -148,4 +147,16 @@ li a:hover:not(.active) {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+
+/*--------------------- Footer--------------------*/
+footer {
+  text-align: center;
+  padding: 2px;
+  background-color: #add8e6;
+  color: black;
+  border-radius: 50% 50% 0% 0%;
+  
 }
