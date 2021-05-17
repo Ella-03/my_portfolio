@@ -150,6 +150,16 @@ li a:hover:not(.active) {
   border-radius: 10%;
 }
 
+.centers {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+  width: 600px;
+   height: 500px;
+}
+
+
 
 
 /*--------------------- Footer--------------------*/
