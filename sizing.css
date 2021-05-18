@@ -35,6 +35,11 @@
     .button {
       width: 30%;
     }
+
+    .centers{
+      width: 400px;
+      height: 300px;
+    }
     
 
 }
@@ -73,6 +78,11 @@
 
     .button {
       width: 30%;
+    }
+
+    .centers{
+      width: 400px;
+      height: 300px;
     }
     
 
